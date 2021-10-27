@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root {
     --fundo-escuro: #171717;
@@ -11,8 +11,14 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body {
     background-color: var(--fundo-escuro);
+   
 }
 
 /* Margin */
@@ -65,4 +71,122 @@ img.perfil {
     border-radius: 50%;
     border: 2px solid var(--borda-clara);
     padding: 30px;
+    max-width: 100%;
+}
+
+.about {
+    color: white
+}
+
+.about-img {
+    justify-content: space-evenly;  
+}
+
+.bola{
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #212121;
+    position: relative;
+    width: 62px;
+    height: 62px;
+}
+
+.habilidades{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.habilidades .caixa {
+    width: 349px;
+    height: 241px;
+    background-color: #212121;
+    border-radius: 10px;
+    padding: 35px; 
+}
+
+.habilidades h6{
+    color: #535353;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 20px;
+   
+}
+
+.skills {
+    background-color: #212121;
+    width: 1168px;
+    height: 235px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+
+.skills .skills-itens {
+    text-align: center;
+    
+}
+
+.skills .skills-itens h5{
+    color: #4F4F4F;
+    font-size:72px;
+    font-weight: 700;
+     
+}
+
+.skills .skills-itens p{
+    color: var(--cor-primaria);
+    font-size: 24px;
+    
+}
+
+/* form */
+
+.width-50{
+    width: 50%;
+
+}
+
+.input-custon {
+    width: 100%;
+    background-color: transparent;
+    margin: 30px 0;
+    border: 0;
+    border-bottom: 1px solid #4F4F4F;
+}
+
+.text-area-custon{
+    width: 100%;
+    background-color: transparent;
+    margin: 30px 0;
+    border: 1px solid #4F4F4F;
+
+}
+
+.button{
+    background-color: var(--cor-primaria);
+    padding: 10px 30px;
+    color: white;
+    border: none;
+  
+}
+
+.center{
+    text-align: center;
+}
+
+.roda-pe h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+input {
+    color: white;
 }
